@@ -1,0 +1,34 @@
+.header{
+  position:relative;
+  float: left;
+  font-size: 2vw;
+  color: #FF0000;
+  /*background-color: #FFEE33;*/
+}
+
+#bio{
+  position:relative;
+  float: left;
+  font-size: 1.5vw;
+  color: #111111;
+}
+
+.content{
+  /*position:relative;
+  float: left;*/
+
+  float: left;
+  /*margin-left: 40px;*/
+  font-size: 1.5vw;
+  color: #111111;
+  /*background-color: #FFEE33;*/
+}
+
+.subtitle{
+
+  float: left;
+  margin-left: 40px;
+  font-size: 2vw;
+  color: #AA0000;
+  /*background-color: #FFEE33;*/
+}
