@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,700&display=swap');
+
+body{
+  font-family: 'Rubik', sans-serif;
+}
+
 .header{
-  position:relative;
-  float: left;
-  font-size: 2vw;
-  color: #FF0000;
+  /*position:relative;*/
+
+  /*float: left;*/
+  font-size: 2.5vw;
+  font-weight:bold;
+  color: #fc034e;
+  margin-top: 20px;
   /*background-color: #FFEE33;*/
 }
 
@@ -10,25 +19,38 @@
   position:relative;
   float: left;
   font-size: 1.5vw;
+  font-weight: normal;
   color: #111111;
+}
+
+.subtitle{
+  position: relative;
+  float: left;
+  width: 100%;
+  margin-left: 40px;
+  font-size: 2vw;
+  color: #fc034e;
 }
 
 .content{
   /*position:relative;
   float: left;*/
 
-  float: left;
+  /*float: left;*/
   /*margin-left: 40px;*/
   font-size: 1.5vw;
   color: #111111;
+  line-height: 3vw;
   /*background-color: #FFEE33;*/
 }
 
-.subtitle{
+.subcontent{
+  /*position:relative;
+  float: left;*/
 
-  float: left;
+  /*float: left;*/
   margin-left: 40px;
-  font-size: 2vw;
-  color: #AA0000;
+  font-size: 1.5vw;
+  color: #111111;
   /*background-color: #FFEE33;*/
 }
