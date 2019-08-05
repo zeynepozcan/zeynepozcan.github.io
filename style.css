@@ -2,24 +2,32 @@
 
 body{
   font-family: 'Rubik', sans-serif;
+  margin-left: 20px;
+  line-height: 23px;
+}
+
+br {
+  display: block;
+  content: "";
+  margin-top: 9px;
 }
 
 .header{
   /*position:relative;*/
-
-  /*float: left;*/
-  font-size: 2.5vw;
+  font-size: 25px;
   font-weight:bold;
-  color: #fc034e;
   margin-top: 20px;
+  color: #fc0394;
+
   /*background-color: #FFEE33;*/
 }
 
 #bio{
   position:relative;
   float: left;
-  font-size: 1.5vw;
+  font-size: 15px;
   font-weight: normal;
+  margin-top: 10px;
   color: #111111;
 }
 
@@ -27,30 +35,17 @@ body{
   position: relative;
   float: left;
   width: 100%;
-  margin-left: 40px;
-  font-size: 2vw;
-  color: #fc034e;
+  font-size: 20px;
+  margin-top: 10px;
+  color: #00bfff;
 }
 
 .content{
-  /*position:relative;
-  float: left;*/
-
-  /*float: left;*/
-  /*margin-left: 40px;*/
-  font-size: 1.5vw;
+  font-size: 15px;
   color: #111111;
-  line-height: 3vw;
-  /*background-color: #FFEE33;*/
 }
 
 .subcontent{
-  /*position:relative;
-  float: left;*/
-
-  /*float: left;*/
-  margin-left: 40px;
-  font-size: 1.5vw;
+  font-size: 15px;
   color: #111111;
-  /*background-color: #FFEE33;*/
 }
