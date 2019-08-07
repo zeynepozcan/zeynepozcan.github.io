@@ -2,7 +2,8 @@
 
 body{
   font-family: 'Rubik', sans-serif;
-  margin-left: 20px;
+  /*margin-left: 20px;*/
+  margin:0px;
   line-height: 23px;
 }
 
@@ -12,11 +13,16 @@ br {
   margin-top: 9px;
 }
 
+a {
+  color: #000000;
+}
+
+
 .header{
   /*position:relative;*/
   font-size: 25px;
   font-weight:bold;
-  margin-top: 20px;
+  /*margin-top: 20px;*/
   color: #fc0394;
 
   /*background-color: #FFEE33;*/
@@ -37,7 +43,8 @@ br {
   width: 100%;
   font-size: 20px;
   margin-top: 10px;
-  color: #00bfff;
+  font-weight:bold;
+  color: #000000;
 }
 
 .content{
@@ -48,4 +55,44 @@ br {
 .subcontent{
   font-size: 15px;
   color: #111111;
+}
+
+.tile{
+  position: relative;
+  float: left;
+  width: calc(100% - 300px);
+  padding: 50px 150px 50px 150px;
+  background-color: #e6e6e6;
+}
+
+.work-image{
+	width:100%;
+}
+
+/*.presentationsTile{
+  color: #ffffff;
+  position: relative;
+  float: left;
+  width: calc(100% - 200px);
+  padding: 20px 100px 20px 100px;
+  background-image: url("media/tile.png");
+  background-color: #e6e6e6;
+}*/
+
+.topbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px 0px 15px 150px;
+	z-index: 1;
+	/*font-family: 'Nova Mono';*/
+	background-color: #ffdc6a;
+  /*text-align: center;*/
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -75px;
+    visibility: hidden;
 }
