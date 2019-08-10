@@ -88,6 +88,10 @@ a.anchor {
 	width:100%;
 }*/
 
+.musicPlayer{
+  width: 75%;
+}
+
 @media only screen and (max-width: 500px){
   .tile {
     padding: 50px 10px 50px 10px;
@@ -99,5 +103,9 @@ a.anchor {
 
   a.anchor{
     top: -100px;
+  }
+
+  .musicPlayer{
+    width: 100%;
   }
 }
