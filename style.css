@@ -66,20 +66,6 @@ a {
   background-color: #e6e6e6;
 }
 
-.work-image{
-	width:100%;
-}
-
-/*.presentationsTile{
-  color: #ffffff;
-  position: relative;
-  float: left;
-  width: calc(100% - 200px);
-  padding: 20px 100px 20px 100px;
-  background-image: url("media/tile.png");
-  background-color: #e6e6e6;
-}*/
-
 .topbar{
   position: fixed;
   top: 0;
@@ -96,4 +82,22 @@ a.anchor {
     position: relative;
     top: -75px;
     visibility: hidden;
+}
+
+/*.work-image{
+	width:100%;
+}*/
+
+@media only screen and (max-width: 500px){
+  .tile {
+    padding: 50px 10px 50px 10px;
+    width: calc(100% - 20px);
+  }
+  .topbar{
+    padding: 15px 10px 15px 10px;
+  }
+
+  .iframe{
+    width: 100%;
+  }
 }
