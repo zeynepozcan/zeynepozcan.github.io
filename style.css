@@ -97,7 +97,7 @@ a.anchor {
     padding: 15px 10px 15px 10px;
   }
 
-  .iframe{
-    width: 100%;
+  a.anchor{
+    top: -100px;
   }
 }
