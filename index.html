@@ -14,6 +14,7 @@
 <script>
   window.onload = function(){
     inView.offset({
+      top: document.getElementById('topbar').scrollHeight,
       bottom: window.innerHeight - document.getElementById('topbar').scrollHeight
     });
     var target = document.getElementById('topbar');
