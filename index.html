@@ -9,6 +9,18 @@
   <title>Zeynep Özcan</title>
 </head>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://unpkg.com/in-view@0.6.1/dist/in-view.min.js"></script>
+
+<script>
+  var $target = $('.topbar');
+  inView('.tile').on('enter', function(el){
+    var color = $(el).css('background-color');
+    console.log(color);
+    $target.css('background-color', color );
+  });
+</script>
+
 <body>
 
   <div class="topbar"> Zeynep Özcan's
@@ -45,7 +57,7 @@
     <div class="header">PUBLICATIONS</div>
 
     <div class="subtitle">Book Chapters </div>
-    <div class="subcontent"> Özcan Z., 2019.
+    <div class="subcontent"> Özcan, Z. 2019.
       <a href="publications/Ozcan_Polytopes.pdf" target="_blank">"Polytopes"</a> in İnci Aslanoğlu İçin Bir
       Mimarlık Dizimi (eng: An Architectural Index for the memory of İnci Aslanoğlu), Middle East Technical University Faculty of Architecture Press, Ankara, Turkey.
     </div>
@@ -58,19 +70,19 @@
       Özcan, Z. and Çamcı, A. 2018.
       <a href="publications/Ozcan_2018_AVAR.pdf" target="_blank">“An Augmented Reality Music Composition Based on the Sonification of Animal Behavior”</a>. Proceedings of the AES International Conference on Audio for Virtual and Augmented Reality, Redmond, WA, US.<br>
 
-      Özcan, Z. 2015 <a href="publications/Ozcan_Continuum.pdf" target="_blank"> “A History of Future Art From Xenakis to Wagner”</a>.
+      Özcan, Z. 2015. <a href="publications/Ozcan_Continuum.pdf" target="_blank"> “A History of Future Art From Xenakis to Wagner”</a>.
       Continuum 2015-16: From Xenakis to the Present Day: The Continuum in Music and Architecture. University of Rouen, France.<br>
 
       Çamcı, A., Özcan, Z., Pehlevan, D. 2015. <a href="publications/Camci_Ozcan_2015_ICMC.pdf" target="_blank"> “Interactive Virtual Soundscapes: A Research Report”</a>. Proceedings of the 41. International Computer Music Conference, TX, US.
     </div>
 
     <div class="subtitle">Thesis and Dissertation </div>
-    <div class="subcontent">Özcan, Z. 2018. Proprius: Sonification of Animal Behavior in an Autonomous
-      Interactive Musical Ecosystem (Doctoral dissertation) Istanbul Technical
+    <div class="subcontent">Özcan, Z. 2018. <em>Proprius: Sonification of Animal Behavior in an Autonomous
+      Interactive Musical Ecosystem</em>. (Doctoral dissertation). Istanbul Technical
       University, Istanbul, Turkey.<br>
 
-      Özcan, Z. 2013. Intersection of Architecture and Music as Gesamtkunstwerk in Iannis Xenakis’s
-      Selected Works (M.A Thesis). Middle East Technical University, Ankara, Turkey.
+      Özcan, Z. 2013. <em>Intersection of Architecture and Music as Gesamtkunstwerk in Iannis Xenakis’s
+      Selected Works</em>. (M.A Thesis). Middle East Technical University, Ankara, Turkey.
     </div>
 
     <div class="subtitle">Literature </div>
@@ -91,6 +103,15 @@
 
       Özcan, Z. 2013. “Tiyatroda Ankara atağı: Stüdyo Cer”, <em>Radikal</em>.
     </div>
+
+    <div class="subtitle">Periodicals </div>
+    <div class="subcontent"> Ozcan, Z. 2013-2015. various articles in architectural magazines (<em>Ofis+İletişim</em>, and <em>Banyo+Mutfak</em>).
+      Boyut Publishing Group.
+    </div>
+
+
+
+
   </div>
 
   <div class="tile" style="background-color: #ffbcd9;">
