@@ -66,7 +66,7 @@ a {
   background-color: #e6e6e6;
 }
 
-.topbar{
+#topbar{
   position: fixed;
   top: 0;
   width: 100%;
