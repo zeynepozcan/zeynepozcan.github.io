@@ -78,7 +78,7 @@ a {
 a.anchor {
     display: block;
     position: relative;
-    top: -75px;
+    top: -73px;
     visibility: hidden;
 }
 
@@ -96,6 +96,6 @@ a.anchor {
   }
 
   a.anchor{
-    top: -100px;
+    top: -76px;
   }
 }
