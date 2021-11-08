@@ -17,6 +17,14 @@ a {
   color: #000000;
 }
 
+.logo {
+  /*text-indent:-9999999px;*/
+  /*background: url('MaxCertifiedTrainer-2021-dark.png');*/
+  width: 10px;
+  height: 14px;
+
+}
+
 
 .header{
   /*position:relative;*/
