@@ -9,22 +9,6 @@
   <title>Zeynep Özcan</title>
 </head>
 
-<script src="javascript/in-view.min.js"></script>
-
-<script>
-  window.onload = function(){
-    inView.offset({
-      top: document.getElementById('topbar').scrollHeight,
-      bottom: window.innerHeight - document.getElementById('topbar').scrollHeight
-    });
-    var target = document.getElementById('topbar');
-    inView('.tile').on('enter', function(el){
-      var color = el.style.backgroundColor;
-      target.style.backgroundColor = color;
-    });
-  }
-</script>
-
 <body>
 
 
